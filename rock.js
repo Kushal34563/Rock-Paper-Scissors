@@ -16,7 +16,7 @@ function playRound(playerSelection) {
     if ((playerSelection == 'rock' && computerSelection == 'scissors') || (playerSelection == 'scissors' && computerSelection == 'paper') ||(playerSelection == 'paper' && computerSelection == 'rock')) {
     
         ps += 1
-        result = ('win<br>      ' + playerSelection + ' beats ' + computerSelection + '<br>p score:' + ps + '<br>c score:' + cs)
+        result = ('win<br>' + playerSelection + ' beats ' + computerSelection + '<br>p score:' + ps + '<br>c score:' + cs)
         if (ps== 5) {
             result += '<br><br>You won the game! Reload the page to play again'
         }
@@ -26,7 +26,7 @@ function playRound(playerSelection) {
     }
     else {
         cs += 1
-        result = ('lose<br>            ' + playerSelection + ' lost to ' + computerSelection + '<br>p score:' + ps + '<br>c score:' + cs)
+        result = ('lose<br>' + playerSelection + ' lost to ' + computerSelection + '<br>p score:' + ps + '<br>c score:' + cs)
 
         if (cs == 5) {
             result += '<br><br>I won the game! Reload the page to play again'

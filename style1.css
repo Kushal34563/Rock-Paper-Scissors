@@ -1,0 +1,79 @@
+body {
+  background-color: rgb(0, 0, 0);
+}
+.button {
+    background-color: yellow; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  
+  .container {
+    height: 140px;
+    padding: 16px;
+    background: rgb(73, 73, 73);
+    border: 4px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  h1 {
+    font-size: 48px;
+  color: yellow;
+  font-family: 'Press Start 2P', cursive;
+  }
+  p {
+    font-size: 20px;
+  color: yellow;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  }
+  #display {
+    height: 140px;
+    padding: 16px;
+    background: rgb(73, 73, 73);
+    border: 4px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    
+  }
+  .clear {
+    clear: both;
+}
+
+  .sel {
+    padding: 25px 25px;
+    height: 40px;
+    width: 120px;
+    
+    border: 4px solid yellow;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #FFF;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px; 
+  }
+  #result {
+    font-size: 25px; 
+    height: 120px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  #space {
+    
+    text-shadow: 1px 1px 1px #333;
+    height: 100px;
+    text-align: center;
+    color: #FFF;
+  }
+  
